@@ -1,0 +1,31 @@
+# Runtime / session data
+history.jsonl
+cache/
+debug/
+telemetry/
+session-env/
+shell-snapshots/
+file-history/
+backups/
+stats-cache.json
+statsig/
+plans/
+tasks/
+todos/
+ide/
+
+# Projects (per-project conversation data)
+projects/
+
+# Plugin runtime data (installed via marketplace)
+plugins/cache/
+plugins/install-counts-cache.json
+plugins/installed_plugins.json
+plugins/known_marketplaces.json
+plugins/marketplaces/
+
+# Machine-local settings
+settings.local.json
+
+# macOS
+.DS_Store
